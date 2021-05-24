@@ -1,0 +1,68 @@
+﻿{% extends "app/BaseHome.html" %}
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        {%load static%}
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+
+    <body>
+        <!-- Entro nel blocco "Consigliati" -->
+        {% block Consigliati%}
+            <tbody class="bordo">
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">1</th>
+                    <td style="color:black"> <img src="{%static "app/img/dark_souls_1.jpg"%}" width="120" height="170" title="Dark Souls 1"> </td>
+                    <td style="color:black;padding-top:5%">Dark Souls I è un videogioco action RPG con visuale in terza persona. Il giocatore deve esplorare varie ambientazioni in stile dark fantasy e utilizzare armi, magie e strategie per sopravvivere a trappole e nemici.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">2</th>
+                    <td> <img src="{%static "app/img/Dark_souls_2.jpg"%}" width="120" height="170" title="Dark Souls 2"> </td>
+                    <td style="color:black;padding-top:5%">Dark Souls II  è un videogioco di ruolo/avventura dinamica dark fantasy sviluppato da FromSoftware. È l'unico capitolo della serie a non essere stato diretto da Hidetaka Miyazaki, il quale ha comunque supervisionato lo sviluppo. </td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">3</th>
+                    <td> <img src="{%static "app/img/Dark_souls_3.jpg"%}" width="120" height="170" title="Dark Souls 3"> </td>
+                    <td style="color:black;padding-top:5%">Il gameplay di Dark Souls III riprende a pieno quello dei precedenti capitoli, ampliandolo e rivisitandolo in alcuni punti. Questo sarà l'ultimo capitolo della serie dei dark souls.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">4</th>
+                    <td> <img src="{%static "app/img/Minecraft.jpg"%}" width="120" height="170" title="Minecraft"> </td>
+                    <td style="color:black;padding-top:5%"> Minecraft è un gioco dove si scava (mine) e costruisce (craft) con diversi tipi di blocchi 3D, all'interno di un grande mondo fatto da diversi tipi di terreni e habitat da esplorare. In questo mondo il sole sorge e tramonta, si va al lavoro, si raccolgono materiali e si costruiscono utensili.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">5</th>
+                    <td> <img src="{%static "app/img/Hollow_knight.jpg"%}" width="120" height="170" title="Hollow Knight"> </td>
+                    <td style="color:black;padding-top:5%"> Hollow Knight è un Metroidvania in grafica 2D con forti componenti azione ed avventura ambientato nell'immaginario e antico reame di Nidosacro. Il giocatore per navigare nel mondo di gioco controlla un essere senza nome, insettiforme e muto chiamato solo "Cavaliere vuoto".</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">6</th>
+                    <td> <img src="{%static "app/img/GTA5.jpg"%}" width="120" height="170" title="GTA 5"> </td>
+                    <td style="color:black;padding-top:5%"> Il gioco è ambientato all'interno dello Stato immaginario di San Andreas (controparte della California) e offre al giocatore la possibilità di muoversi liberamente nella città immaginaria di Los Santos, controparte di Los Angeles.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">7</th>
+                    <td> <img src="{%static "app/img/The_witcher_3.jpg"%}" width="120" height="170" align="middle" title="The Witcher 3"> </td>
+                    <td style="color:black;padding-top:5%"> The Witcher 3: Wild Hunt conclude la storia del witcher Geralt di Rivia, protagonista della serie. Proseguendo da The Witcher 2: Assassins of Kings, Geralt ha finalmente recuperato la sua memoria e intraprende una nuova e personale missione alla ricerca di Ciri, ragazza da lui considerata come una figlia e della quale non ha più notizie da tempo, mentre l'ordine del mondo sta arrivando a un cambiamento definitivo.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">8</th>
+                    <td> <img src="{%static "app/img/Red_dead_redemption_2.jpg"%}" width="120" height="170" title="Red Dead Redemption 2"> </td>
+                    <td style="color:black;padding-top:5%">Red Dead Redemption II è un gioco d'avventura e azione in prima e terza persona ambientato in un open world a tema western. Il giocatore impersona Arthur Morgan, un fuorilegge appartenente alla banda Van der Linde. </td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">9</th>
+                    <td> <img src="{%static "app/img/Nioh_2.jpg"%}" width="120" height="170" title="Nioh 2"> </td>
+                    <td style="color:black;padding-top:5%">Padroneggia le letali tecniche dei samurai impersonando un misterioso guerriero per metà uomo e per metà soprannaturale Yokai, nel secondo entusiasmante capitolo di questo GdR d'azione. Esplora il sanguinario Giappone del periodo Sengoku e il letale Regno oscuro, infestati da demoni feroci e impietosi.</td>
+                </tr>
+                <tr style="text-align: center">
+                    <th scope="row" style="color:black;padding-top:5%">10</th>
+                    <td> <img src="{%static "app/img/Sekiro.jpg"%}" width="120" height="170" title="Sekiro"> </td>
+                    <td style="color:black;padding-top:5%">Sekiro: Shadows Die Twice è un videogioco action in stile souls-like sviluppato da FromSoftware. Il gioco segue le vicende di uno shinobi, il "Lupo", mentre tenta di salvare il giovane signore a cui ha giurato fedeltà. </td>
+                </tr>
+            </tbody>
+        {%endblock%}
+    </body>
+</html>
